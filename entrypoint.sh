@@ -26,7 +26,7 @@ fi
 
 echo "## Setup Deploy keys ##################"
 mkdir /root/.ssh && \
-ssh-keyscan -t rsa github.com > /root/.ssh/known_hosts
+ssh-keyscan -t rsa e.coding.net > /root/.ssh/known_hosts
 
 if [ X"$DEPLOY_PRIVATE_KEY" = X"" ]; then
   echo "## Skip ssh key deploy ##################"
