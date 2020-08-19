@@ -32,7 +32,7 @@ if [ X"$DEPLOY_PRIVATE_KEY" = X"" ]; then
   echo "## Skip ssh key deploy ##################"
 else
   echo ${DEPLOY_PRIVATE_KEY} > /root/.ssh/id_rsa
-  chmod 400 /root/.ssh/id_rsa && \
+  chmod 600 /root/.ssh/id_rsa && \
   ls -lhart /root/.ssh/id_rsa && \
   cat /root/.ssh/id_rsa
 fi
