@@ -1,13 +1,13 @@
-name: 'Git Push Action'
-description: 'Git Push Action'
-author: 'xiexianbin <me@xiexianbin>'
+name: 'Git Push Action For Coding Page'
+description: 'Git Push Action For Coding Page'
+author: 'Anonystar <me@AnonyStar>'
 inputs: 
   GITHUB_EMAIL:
     description: 'git user email'
-    default: "xiexianbin"
+    default: "AnonyStar"
   GITHUB_USERNAME:
     description: 'git use username'
-    default: "me@xiexianbin.cn"
+    default: "me@AnonyStar.cn"
   PUBLISH_REPO:
     description: 'https:/<token>@github.com/owner/repo.git'
   PUBLISH_BRANCH:
